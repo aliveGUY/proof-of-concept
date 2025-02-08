@@ -11,7 +11,7 @@ mongoose
 
 const io = require("socket.io")(3001, {
   cors: {
-    origin: "https://proof-of-concept-1-9tob.onrender.com/",
+    origin: "https://proof-of-concept-1-9tob.onrender.com",
     methods: ["GET", "POST"],
   },
 });
